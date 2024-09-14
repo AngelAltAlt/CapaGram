@@ -18,4 +18,37 @@ export function start(){
   print("Starting CapaGram...")
 }
 
+export function store(x){
+  unlock(Unlocked)
+  let storedVal = x
+  print("The value has been stored!")
+}
+
+export function splitCap(x){
+  unlock(Unlocked)
+  print("Spliting the value...")
+  if (storedVal == storedVal.join('')){
+    let storedVal = storedVal.split('')
+    print("Value splitted!")
+  } else {
+    print("Value is already splitted, the value will not be effected")
+  }
+}
+
+export function discharge(){
+  if (storedVal != ''){
+    let goneVal = storedVal
+    let storedVal = ''
+    print("Value has been eleminated from the capacitor!")
+  } else {
+    print("There is no stored value, hence the value will not be affected")
+  }
+}
+
+export function returnVal(){
+  let storedVal = goneVal
+  let goneVal = ''
+  print("The value is back to the capacitor!")
+} 
+
 //More comming soon...
