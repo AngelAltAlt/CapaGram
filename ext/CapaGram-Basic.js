@@ -1,5 +1,5 @@
 //Needed custom extensions//
-import * from "Console-Basic.js"
+import * from "./Console-Basic.js"
 
 //Scripts//
 export function varOutBasic(x){
