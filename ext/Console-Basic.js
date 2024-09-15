@@ -1,5 +1,5 @@
 //Scripts//
-export function print(x){
+export function printc(x){
   console.log(x)
 }
 
