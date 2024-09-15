@@ -3,7 +3,7 @@ export function printc(x){
   console.log(x)
 }
 
-export function error(x){
+export function errorc(x){
   console.error(x)
 }
 
