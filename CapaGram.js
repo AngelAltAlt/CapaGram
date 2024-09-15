@@ -55,7 +55,8 @@ export function returnVal(){
 
 export function valOut(){
   unlock(Unlocked)
-  valOutBasic()
+  valOutBasic(storedVal)
+  let storedVal = ''
 }
 
 //More comming soon...
